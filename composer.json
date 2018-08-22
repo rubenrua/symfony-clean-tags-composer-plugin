@@ -1,0 +1,22 @@
+{
+    "name": "rubenrua/symfony-clean-tags-composer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruben Gonzalez",
+            "email": "rubenrua@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rubenrua\\SymfonyCleanTagsComposerPlugin\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Rubenrua\\SymfonyCleanTagsComposerPlugin\\Plugin"
+    }
+}
