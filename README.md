@@ -41,6 +41,12 @@ Execute the following command to installs the composer plugin:
 $ composer require rubenrua/symfony-clean-tags-composer-plugin
 ```
 
+or globally with:
+
+```
+$ composer global require rubenrua/symfony-clean-tags-composer-plugin
+```
+
 ### Step 3: Configure the new extra parameter
 
 Configure `extra.symfony.require` with the same symfony version constraints used in the application. For instance, if you are using symfony 2.8, execute the following command to modify the config composer section:
