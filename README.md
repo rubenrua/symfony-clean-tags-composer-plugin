@@ -57,7 +57,7 @@ $ composer config extra.symfony.require 2.8.*
 
 Also the `SYMFONY_REQUIRE` environment variable can be used instead of `extra.symfony.require`. See [`symfony/symfony` travis configuration for a example](https://github.com/symfony/symfony/commit/940ec8f2d5c562bc1b2424f67ab0cbd1f3c59e51#diff-354f30a63fb0907d4ad57269548329e3).
 
-### Step 4: Profile applicaion with the plugin
+### Step 4: Profile application with the plugin
 
 Finally profile the current memory and CPU time usage. Execute again the following command:
 
