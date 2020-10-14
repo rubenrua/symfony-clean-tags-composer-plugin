@@ -22,7 +22,7 @@ This project extracts this patch into a separete composer plugin for legacy proj
 Installation
 ------------
 
-### Step 1: Profile applicaion without the plugin
+### Step 1: Profile application without the plugin
 
 Open a command console, enter your project directory and execute the following command to profile the current memory and CPU time usage.
 
